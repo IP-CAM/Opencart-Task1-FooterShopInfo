@@ -1,0 +1,126 @@
+
+/*****************************************************/
+/******   F O O T E R    W I D G E T S   *************/
+/*****************************************************/
+.shopinfo h2 {
+	pading:20px 0 6px; 
+	line-height:28px;
+}
+.col {
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.s_icon {background-color: #4CB1CA; display:block; position:absolute; left:0; top:50%; }
+.s_icon_32 {padding-left:42px!important; display:inline-block; position:relative;}
+.s_icon_32 .s_icon {
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+}
+
+.s_phone_32,
+.s_fax_32,
+.s_mobile_32,
+.s_mail_32,
+.s_skype_32
+{
+  background-image: url(../image/info_icons.png);
+  background-color: #4cb1ca;
+}
+.s_phone_32 {background-position: 0 0 !important;}
+.s_mobile_32 {background-position: 0 -32px !important;}
+.s_mail_32 {background-position: 0 -64px !important;}
+.s_skype_32 {background-position: 0 -96px !important;}
+.s_fax_32 {background-position: 0 -128px !important;}
+.s_save_10 {background-image: url(../image/i_save_10.png);}
+
+#shop_info h2 {
+  margin-bottom: 14px;
+  font-size: 20px;
+  color: #888;
+  border-bottom: 1px solid #e3e3e3;
+ 
+}
+#shop_description {font-size: 11px;}
+#shop_description h2 {
+  text-indent: 30px;
+  background: url(../image/i_cart_24.png) no-repeat -1px 0px;
+}
+#shop_description p {margin-right: 10px;}
+#twitter h2 {
+  text-indent: 30px;
+  background: url(../image/i_twitter_24.png) no-repeat 0 0;
+}
+#twitter li {
+  margin-bottom: 18px;
+  padding-left: 30px;
+  background: url(../image/quotes.png) no-repeat 0 0;
+}
+#twitter li a {
+  display: block;
+  font-style: normal;
+  font-size: 10px !important;
+  color: #bbb;
+}
+#twitter li span,
+#twitter li span *
+{
+  line-height: 16px;
+  font-size: 11px !important;
+  font-family: Georgia, Arial, Helvetica, sans-serif !important;
+  font-style: italic !important;
+  word-wrap: break-word;
+}
+#twitter li span * {
+  display: inline !important;
+  margin: 0;
+  padding: 0;
+}
+#twitter li span a {
+  color: #4cb1ca;
+}
+#twitter li span:after {
+  visibility: hidden;
+  content: "."
+}
+#twitter ul {
+  margin-bottom: -20px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#facebook h2 {
+  text-indent: 30px;
+  background: url(../image/i_facebook_24.png) no-repeat 0 0;
+}
+#facebook .s_widget_holder {
+  margin-top: 0;
+}
+
+#shop_contacts {
+  font-size: 12px;
+}
+#shop_contacts h2 {
+  text-indent: 30px;
+  background: url(../image/i_contacts_24.png) no-repeat 0 0;
+}
+#shop_contacts td {
+  height: 52px;
+  padding-bottom: 18px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: content-box;
+}
+#shop_contacts tr.s_webkit td {
+  height: 32px !important;
+}
+#shop_contacts tr:last-child td {
+  height: 32px;
+  padding-bottom: 0 !important;
+}
+#shop_contacts .s_icon_32 {
+  display: inline-block;
+}
